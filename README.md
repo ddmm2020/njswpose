@@ -3,11 +3,16 @@ Introduction
 This package is used to estimate human body keypoints, developed by Waterway Research Insitutue of Nanjing  
 E-mail: 1126557295@qq.com
 
+our backbone netwoork is resnet50.
+
 Installation
 -----
 
 ```bash
 pip install njswpose
+or 
+# If you have changed your mirror source. You should try the following command.
+pip install njswpose -i https://www.pypi.org/simple/
 ```
 
 Example
@@ -25,3 +30,9 @@ Example
     image = loader(image)
     pose_detection(image, detect_threshold=0.55, vis=True)
 ```
+Test
+---
+![image](https://github.com/ddmm2020/njswpose/blob/master/detection_result/test1_pose.jpg)
+![image](https://github.com/ddmm2020/njswpose/blob/master/detection_result/test2_pose.jpg)
+![image](https://github.com/ddmm2020/njswpose/blob/master/detection_result/test3_pose.jpg)
+![image](https://github.com/ddmm2020/njswpose/blob/master/detection_result/test4_pose.jpg)
