@@ -28,7 +28,10 @@ Example
     loader = transforms.Compose([
         transforms.ToTensor()])
     image = loader(image)
-    pose_detection(image, detect_threshold=0.55, vis=True)
+    
+    # The test results are saved as ./pose.jpg
+    # pose_detection(image, detect_threshold=0.55, vis=True)
+    keypoints,kp_score = pose_detection(image, detect_threshold=0.55, vis=True)
 ```
 Test
 ---
