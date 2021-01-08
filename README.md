@@ -3,7 +3,7 @@ Introduction
 This package is used to estimate human body keypoints, developed by Waterway Research Insitutue of Nanjing  
 E-mail: 1126557295@qq.com
 
-our backbone netwoork is resnet50.
+our backbone network is resnet50.
 
 Installation
 -----
